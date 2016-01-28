@@ -13,6 +13,8 @@
 		256F127D1C59AF2800CEA588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256F127B1C59AF2800CEA588 /* Main.storyboard */; };
 		256F127F1C59AF2800CEA588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256F127E1C59AF2800CEA588 /* Assets.xcassets */; };
 		256F12821C59AF2900CEA588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256F12801C59AF2900CEA588 /* LaunchScreen.storyboard */; };
+		256F128B1C59AF5C00CEA588 /* UIViewController+HOOK.m in Sources */ = {isa = PBXBuildFile; fileRef = 256F128A1C59AF5C00CEA588 /* UIViewController+HOOK.m */; };
+		256F12961C59BDE600CEA588 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256F12951C59BDE600CEA588 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		256F127E1C59AF2800CEA588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256F12811C59AF2900CEA588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256F12831C59AF2900CEA588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256F12891C59AF5C00CEA588 /* UIViewController+HOOK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HOOK.h"; sourceTree = "<group>"; };
+		256F128A1C59AF5C00CEA588 /* UIViewController+HOOK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HOOK.m"; sourceTree = "<group>"; };
+		256F12951C59BDE600CEA588 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256F12961C59BDE600CEA588 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 		256F12661C59AF2800CEA588 = {
 			isa = PBXGroup;
 			children = (
+				256F12951C59BDE600CEA588 /* MessageUI.framework */,
 				256F12711C59AF2800CEA588 /* 薛楠 */,
 				256F12701C59AF2800CEA588 /* Products */,
 			);
@@ -62,6 +69,8 @@
 				256F12761C59AF2800CEA588 /* AppDelegate.m */,
 				256F12781C59AF2800CEA588 /* ViewController.h */,
 				256F12791C59AF2800CEA588 /* ViewController.m */,
+				256F12891C59AF5C00CEA588 /* UIViewController+HOOK.h */,
+				256F128A1C59AF5C00CEA588 /* UIViewController+HOOK.m */,
 				256F127B1C59AF2800CEA588 /* Main.storyboard */,
 				256F127E1C59AF2800CEA588 /* Assets.xcassets */,
 				256F12801C59AF2900CEA588 /* LaunchScreen.storyboard */,
@@ -152,6 +161,7 @@
 				256F127A1C59AF2800CEA588 /* ViewController.m in Sources */,
 				256F12771C59AF2800CEA588 /* AppDelegate.m in Sources */,
 				256F12741C59AF2800CEA588 /* main.m in Sources */,
+				256F128B1C59AF5C00CEA588 /* UIViewController+HOOK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
